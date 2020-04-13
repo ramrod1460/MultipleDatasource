@@ -16,6 +16,9 @@ public class CardHolder {
     private Long id;
     private String memberId;
     private String cardNumber;
+    
+    // Manually added by Rod ...expected Lombok to handle
+    
 	public Long getId() {
 		return id;
 	}

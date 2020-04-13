@@ -17,6 +17,9 @@ public class Card {
     private String name;
     private int expirationMonth;
     private int expirationYear;
+    
+    // Manually added by Rod ...expected Lombok to handle
+    
 	public Long getId() {
 		return id;
 	}

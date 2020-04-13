@@ -9,17 +9,17 @@
         <relativePath/>
     </parent>
     <groupId>guru.springframework</groupId>
-    <artifactId>springguru-multipledatasources</artifactId>
+    <artifactId>springguru-multipledatasources-mySQL</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springguru-multiple-data-sources</name>
+    <name>springguru-multiple-data-sources-mySQL</name>
     <description>Demo project for using multiple datasources in a Spring Boot Application</description>
 
     <properties>
         <java.version>8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <commons.dbcp.version>1.4</commons.dbcp.version>
     </properties>
+    
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -40,13 +40,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <!-- 
-        <dependency>
-            <groupId>commons-dbcp</groupId>
-            <artifactId>commons-dbcp</artifactId>
-            <version>${commons.dbcp.version}</version>
-        </dependency>
-        -->
+
     </dependencies>
     <build>
         <plugins>

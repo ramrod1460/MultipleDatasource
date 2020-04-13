@@ -16,6 +16,9 @@ public class Member {
     private Long id;
     private String name;
     private String memberId;
+    
+    // Manually added by Rod ...expected Lombok to handle
+    
 	public Long getId() {
 		return id;
 	}
